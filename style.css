@@ -6,6 +6,7 @@
     --font-secundaria:'Nunito Sans', sans-serif;
 }
 
+
 body {
     background-color: var(--color-principal);
     padding: 0;
@@ -49,6 +50,7 @@ header {
     justify-content: center;
     animation-name: texto;
     animation-duration: 5s;
+
 }
 @keyframes texto {
     from{
@@ -82,7 +84,7 @@ header .header-info {
     justify-content: center;
     text-align: center;
     gap: -3px;
-    padding-bottom: 120px;
+    padding-bottom: 10px;
 }
 .infoimportante a {
     margin: 0px 0 0 0;
@@ -193,9 +195,9 @@ audio::-webkit-media-controls-current-time-display {
     border-radius: 50px;
  }
  .boton2:hover {
-     color: var(--color-principal);
-     background-color: var(--color-terciario);
-     border: 1px solid var(--color-principal);
+     color: var(--color-terciario);
+     background-color: transparent;
+     border: 1px solid var(--color-terciario);
      padding: 10px 30PX;
      text-align: center;
      text-decoration: none;
@@ -240,7 +242,7 @@ main img {
 main p {
     padding: 6px 40px 30px 40px;
     max-width: 350px;
-    font-size: 1em;
+    font-size: 1.2rem;
     
 }
 .galeria {
@@ -275,6 +277,7 @@ main p {
     flex-direction: column;
     text-align: center;
     
+    
 }
 .segundo img {
     width: 89px;
@@ -282,7 +285,7 @@ main p {
 .segundo p {
     padding: 6px 40px;
     max-width: 500px;
-    font-size: 1em;
+    font-size: 1.2Rem;
     
 }
 .segundo img{
@@ -379,19 +382,19 @@ footer img {
     }
     .infoimportante {
         width: 100vw;
-        height: 60vh;
+        height: 80vh;
         max-width: 420px;
-        margin: 0;
+        margin: 30px 0 0 0;
        
     }
     .infoimportante img {
-        width: 60%;
+        width: 70%;
     }
     .segundo {
         background-color: var(--color-terciario);
         background-image: url(./figuras/Group.png);
         width: 100%;
-        height: 40vh;
+        height: 60vh;
     }
     .fecha img{
         margin:  0 0 10px 0;
@@ -405,13 +408,11 @@ footer img {
     .galeria img {
         width: 100vw;
     }
-    .f2, .f3, .f4 {
-        display: none;
-    }
+
     .galeria2 {
         width: 100%;
         display: grid;
-        grid-template-columns:1fr 1Fr ;
+        grid-template-columns:1fr 1fr;
     }
     .galeria2 img {
         width: 50vw;
